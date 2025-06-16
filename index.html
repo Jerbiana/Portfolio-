@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio de Jerbiana Mercy - Developpeuse Front-End</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="contenu-header">
+    <div class="texte">
+      <h1>JERBIANA Mercy</h1>
+      <p>Développeuse web en formation</p>
+      <a href="cv.pdf" download class="btn-cv">Télécharger mon CV</a>
+    </div>
+    <img src="mercy.jpg" alt="Moi">
+  </div>
+  </header>
+
+  <section id="apropos">
+    <h2>À propos</h2>
+    <p>Actuellement en formation en développement front-end.Je me spécialise en HTML, CSS et JavaScript avec un interet pour l'interactivité et la logique client.</p>
+  </section>
+
+  <section id="projets">
+    <h2>Mes Projets</h2>
+ <div class="projet">
+    <h3>Calculateur de prêt hypothécaire</h3>
+    <p>Un script JavaScript qui calcule les mensualités d’un prêt en fonction du montant, du taux et de la durée.</p>
+    <p><em>Compétences : manipulation des formules, validation de formulaire, JS basique.</em></p>
+  </div>
+
+  <div class="projet">
+    <h3>Manipulation de dates</h3>
+    <p>Exercice sur la manipulation d’objets Date, affichage et calcul de différences entre deux dates.</p>
+    <p><em>Compétences : objets Date, calculs, gestion d’événements.</em></p>
+  </div>
+
+  <div class="projet">
+    <h3>Exercices sur les tableaux</h3>
+    <p>Travail sur l’ajout, suppression et tri de tableaux en JavaScript.</p>
+    <p><em>Compétences : manipulation de tableaux, méthodes JS.</em></p>
+  </div>
+
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form id="formulaire">
+    <label for="email">Votre email :</label><br>
+    <input type="email" id="email" name="email" required><br>
+
+    <label for="message">Votre message :</label><br>
+    <textarea id="message" name="message" required></textarea><br>
+
+    <button type="submit">Envoyer</button>
+  </form>
+  <p id="confirmation"></p>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
